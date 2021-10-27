@@ -6,3 +6,5 @@ execute as @e[type=armor_stand,name="SMWmarker"] run execute as @a unless score 
 execute as @e[type=player,limit=1,sort=random] unless score @s setupDone matches 1..2 as @s at @s run function main:setup
 #TODO: add a tellraw to start the game
 execute as @e[type=player,limit=1,scores={setupDone=1}] run execute as @e[type=armor_stand,name="SMWmarker"] at @s run function main:starttell
+
+execute as @e[type=armor_stand,name="SMWmarker",limit=1,scores={setupDone=2}] at @s run function smallworld:tick

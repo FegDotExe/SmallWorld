@@ -1,5 +1,7 @@
 scoreboard objectives add worldSize dummy
 scoreboard objectives add worldSizeTemp dummy
+scoreboard objectives add hasStarted dummy
+#TODO: add a timer
 
 kill @e[type=armor_stand,name="SMWmarker"]
 summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,CustomName:'{"text":"SMWmarker"}'}
