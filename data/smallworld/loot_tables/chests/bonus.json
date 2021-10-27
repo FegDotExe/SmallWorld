@@ -1,0 +1,1267 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"smallworld:chests/bonus\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Bonus chest","italic": false,"color": "light_purple"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A legendary chest which","color":"gray","italic":false},
+                {"text":"doubles your bonus!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/simple_dungeon\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Dungeon chest","italic": false,"color": "white"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A common chest brought","color":"gray","italic":false},
+                {"text":"to you straight from","color":"gray","italic":false},
+                {"text":"your local dungeon!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/abandoned_mineshaft\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Mineshaft chest","italic": false,"color": "yellow"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A rare chest brought","color":"gray","italic":false},
+                {"text":"to you from the deepest","color":"gray","italic":false},
+                {"text":"mineshaft in this world!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/village/village_armorer\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Armorer chest","italic": false,"color": "white"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A common chest stolen","color":"gray","italic":false},
+                {"text":"from an armorer!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"smallworld:chests/dungeon\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Dungeon in a chest","italic": false,"color": "light_purple"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A legendary chest","color":"gray","italic":false},
+                {"text":"with a whole dungeon","color":"gray","italic":false},
+                {"text":"packed in it!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"smallworld:chests/musical\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Musical chest","italic": false,"color": "light_purple"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A legendary chest","color":"gray","italic":false},
+                {"text":"for all you musical","color":"gray","italic":false},
+                {"text":"needs!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/bastion_bridge\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Bastion bridge chest","italic": false,"color": "aqua"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"An epic chest gifted","color":"gray","italic":false},
+                {"text":"by our sponsors,","color":"gray","italic":false},
+                {"text":"the piglins!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function":"minecraft:set_nbt",
+              "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/bastion_hoglin_stable\"}}"
+            },
+            {
+              "function":"set_name",
+              "name": {"text":"Bastion stable chest","italic": false,"color": "light_purple"}
+            },
+            {
+              "function": "set_lore",
+              "lore":[
+                {"text":"A legendary chest gifted","color":"gray","italic":false},
+                {"text":"by our sponsors,","color":"gray","italic":false},
+                {"text":"the piglins!","color":"gray","italic":false}
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "rolls": 2.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+              "type": "minecraft:item",
+              "weight": 2,
+              "name": "minecraft:sea_pickle",
+              "functions": [
+                  {
+                      "function":"minecraft:set_count",
+                      "count":{
+                          "min":0.0,
+                          "max":2.0
+                      }
+                  }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:crimson_fungus",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:warped_fungus",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:oak_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:spruce_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:birch_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:jungle_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:acacia_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:dark_oak_sapling",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:pumpkin",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":2.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:nether_wart",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:bamboo",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:flowering_azalea",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":3.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:azalea",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":3.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:moss_block",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":8.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:kelp",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:sugar_cane",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":8.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:red_mushroom",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:brown_mushroom",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:cactus",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:seagrass",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":4.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:vine",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":6.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:glow_lichen",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":3.0
+                    }
+                }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:wheat_seeds",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":4.0,
+                        "max":8.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:melon_seeds",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":4.0,
+                        "max":8.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:carrot",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":4.0,
+                        "max":8.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:potato",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":4.0,
+                        "max":8.0
+                    }
+                }
+            ]
+        },
+        {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:beetroot_seeds",
+            "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":4.0,
+                        "max":8.0
+                    }
+                }
+            ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:sweet_berries",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "rolls": 2.0,
+        "bonus_rolls": 0.0,
+        "entries": [
+          {
+              "type": "minecraft:item",
+              "weight": 1,
+              "name": "minecraft:crimson_nylium",
+              "functions": [
+                {
+                    "function":"minecraft:set_count",
+                    "count":{
+                        "min":0.0,
+                        "max":8.0
+                    }
+                }
+              ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:soul_sand",
+            "functions": [
+              {
+                  "function":"minecraft:set_count",
+                  "count":{
+                      "min":0.0,
+                      "max":8.0
+                  }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:warped_nylium",
+            "functions": [
+              {
+                  "function":"minecraft:set_count",
+                  "count":{
+                      "min":0.0,
+                      "max":8.0
+                  }
+              }
+            ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:sand",
+          "functions": [
+            {
+                "function":"minecraft:set_count",
+                "count":{
+                    "min":0.0,
+                    "max":32.0
+                }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:gravel",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:dripstone_block",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:pointed_dripstone",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":16.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:clay",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":1.5,
+      "bonus_rolls":0.0,
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:dirt",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":16.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:gunpowder",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:magma_cream",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:feather",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 6,
+          "name": "minecraft:leather",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:ink_sac",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:glow_ink_sac",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":3.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:wither_skeleton_skull",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":1.0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":0.5,
+      "bonus_rolls":0.0,
+      "entries":[
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_iron",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":4.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:iron_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":2.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":4.0,
+                "max":16.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:coal_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":16.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:raw_copper",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":4.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:copper_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:raw_gold",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:gold_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":12.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:diamond_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":6.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:amethyst_shard",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":4.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:budding_amethyst",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":1.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:ancient_debris",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":2.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:quartz",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":0.0,
+                "max":8.0
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "name": "minecraft:nether_quartz_ore",
+          "functions": [
+            {
+              "function":"minecraft:set_count",
+              "count":{
+                "min":1.0,
+                "max":16.0
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:spawner",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag":"{BlockEntityTag:{SpawnData:{id:\"minecraft:zombie\"},SpawnPotentials:[{Entity:{id:\"minecraft:zombie\"},Weight:1}]}}"
+                        },
+                        {
+                            "function":"set_name",
+                            "name": {"text":"Zombie spawner","italic": false,"color": "dark_purple"}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:spawner",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag":"{BlockEntityTag:{SpawnData:{id:\"minecraft:skeleton\"},SpawnPotentials:[{Entity:{id:\"minecraft:skeleton\"},Weight:1}]}}"
+                        },
+                        {
+                            "function":"set_name",
+                            "name": {"text":"Skeleton spawner","italic": false,"color": "dark_purple"}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 5,
+                    "name": "minecraft:spawner",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag":"{BlockEntityTag:{SpawnData:{id:\"minecraft:spider\"},SpawnPotentials:[{Entity:{id:\"minecraft:spider\"},Weight:1}]}}"
+                        },
+                        {
+                            "function":"set_name",
+                            "name": {"text":"Spider spawner","italic": false,"color": "dark_purple"}
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:spawner",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag":"{BlockEntityTag:{SpawnData:{id:\"minecraft:creeper\"},SpawnPotentials:[{Entity:{id:\"minecraft:creeper\"},Weight:1}]}}"
+                        },
+                        {
+                            "function":"set_name",
+                            "name": {"text":"Creeper spawner","italic": false,"color": "dark_purple"}
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":2.5,
+            "bonus_rolls": 0.0,
+            "entries":[
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:cobblestone",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count":{
+                                "min":0.0,
+                                "max":8.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:mossy_cobblestone",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count":{
+                                "min":0.0,
+                                "max":8.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls":1,
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:chest",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_nbt",
+                            "tag":"{BlockEntityTag:{LootTable:\"minecraft:chests/simple_dungeon\"}}"
+                        },
+                        {
+                            "function":"set_name",
+                            "name": {"text":"Dungeon chest","italic": false,"color": "white"}
+                        },
+                        {
+                            "function": "set_lore",
+                            "lore":[
+                                {"text":"A common chest brought","color":"gray","italic":false},
+                                {"text":"to you straight from","color":"gray","italic":false},
+                                {"text":"your local dungeon!","color":"gray","italic":false}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

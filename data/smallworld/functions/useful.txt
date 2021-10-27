@@ -1,0 +1,5 @@
+setblock x y z minecraft:chest{LootTable:"deathswap:chests/random"}
+give @s chest{BlockEntityTag:{LootTable:"smallworld:chests/starter"}}
+white->yellow->cyan->purple
+give @s spawner{BlockEntityTag:{SpawnData:{id:"minecraft:zombie"},SpawnPotentials:[{Entity:{id:"minecraft:zombie"},Weight:1}]}}
+give @s minecraft:spawner{BlockEntityTag:{MaxNearbyEntities:20s,SpawnData:{id:"minecraft:slime"},MaxSpawnDelay:1s,MinSpawnDelay:0s,SpawnPotentials:[{Entity:{id:"minecraft:slime"},Weight:1}]}}

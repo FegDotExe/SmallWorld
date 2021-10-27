@@ -1,0 +1,95 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "type":"minecraft:binomial",
+                "n": 1,
+                "p": 0.75
+            },
+            "bonus_rolls": 0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight":1,
+                    "name":"minecraft:jukebox"
+                }
+            ]
+        },
+        {
+            "rolls":{
+                "type":"minecraft:uniform",
+                "min":1,
+                "max":5
+            },
+            "bonus_rolls":0.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_13"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_cat"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_blocks"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_chirp"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_far"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_mall"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_mellohi"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_stal"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_strad"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_ward"
+                },
+                {
+                    "type": "item",
+                    "weight":1,
+                    "name":"minecraft:music_disc_11"
+                },
+                {
+                    "type": "item",
+                    "weight":2,
+                    "name":"minecraft:music_disc_wait"
+                },
+                {
+                    "type": "item",
+                    "weight":1,
+                    "name":"minecraft:music_disc_pigstep"
+                }
+            ]
+        }
+    ]
+}
