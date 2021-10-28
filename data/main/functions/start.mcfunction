@@ -7,5 +7,6 @@ execute as @s[scores={worldSizeTemp=1..}] at @s run function main:barrierloop
 
 #Reset scores
 scoreboard players reset @a hasStarted
+scoreboard players reset @a playerTimer
 
 scoreboard players set @s setupDone 2

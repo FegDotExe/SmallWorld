@@ -2,6 +2,7 @@ scoreboard objectives add worldSize dummy
 scoreboard objectives add worldSizeTemp dummy
 scoreboard objectives add hasStarted dummy
 
+#Timer
 scoreboard objectives add playerTimer dummy
 #Local; A timer which determines how many ticks the player has played
 scoreboard objectives add bonusReceived dummy
@@ -18,6 +19,18 @@ scoreboard objectives add playerTimerLeft dummy
 #Local; it's the time left until next bonus, in minutes, calculated in smallworld:customitems/clock
 scoreboard objectives add constant20 dummy
 scoreboard objectives add constant60 dummy
+
+#Crafting
+scoreboard objectives add craftingPower dummy
+#Local; is the power of a custom dropper crafter
+scoreboard objectives add craftingRecipe dummy
+#Local; it's the id of the recipe which is going to be crafted
+scoreboard objectives add craftingActive dummy
+#Local: if the player has decided to craft the item; global: the amount of items in a slot which is being moved
+scoreboard objectives add sneakTime minecraft.custom:sneak_time
+
+#Custom items
+scoreboard objectives add clickCarrotStick minecraft.used:carrot_on_a_stick
 
 kill @e[type=armor_stand,name="SMWmarker"]
 summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,CustomName:'{"text":"SMWmarker"}'}
