@@ -31,6 +31,6 @@ Requires at least a **normal crafter**.
 ### Usage
 Pretty good for trades and farms, I guess.
 ### Crafting
-<img src="../../../gitimages/empty.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48></a><img src="../../../gitimages/empty.png" width=48>  
-<a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48></a><img src="../../../gitimages/emerald.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48></a>  
-<img src="../../../gitimages/empty.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48></a><img src="../../../gitimages/empty.png" width=48>
+<img src="../../../gitimages/empty.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48 title="Soul fragment"></a><img src="../../../gitimages/empty.png" width=48>  
+<a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48 title="Soul fragment"></a><img src="../../../gitimages/emerald.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment" title="Soul fragment"><img src="../../../gitimages/soul_fragment.png" width=48></a>  
+<img src="../../../gitimages/empty.png" width=48><a href="/data/smallworld/functions/craftings.md#-soul-fragment"><img src="../../../gitimages/soul_fragment.png" width=48 title="Soul fragment"></a><img src="../../../gitimages/empty.png" width=48>
