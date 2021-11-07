@@ -16,5 +16,3 @@ If you right click while you have this totem in your main hand, you will remove 
 <img src="../../../gitimages/empty.png" width=20><img src="../../../gitimages/lapis_lazuli.png" width=20><img src="../../../gitimages/empty.png" width=20>  
 <img src="../../../gitimages/emerald.png" width=20><img src="../../../gitimages/emerald.png" width=20><img src="../../../gitimages/emerald.png" width=20>  
 <img src="../../../gitimages/empty.png" width=20><img src="../../../gitimages/emerald.png" width=20><img src="../../../gitimages/empty.png" width=20>
-
-https://github.com/FegDotExe/SmallWorldPack/blob/master/assets/smallworld/textures/totem_of_time.png
