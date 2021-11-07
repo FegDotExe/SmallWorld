@@ -37,3 +37,6 @@ execute as @a[scores={clickCarrotStick=1..}] run scoreboard players reset @s cli
 
 #TODO: add entity egg chest
 #TODO: add lapis and redstone to chests
+#TODO: add item spawner for item farms
+#TODO: add disenchanter
+#TODO: add recipe for villagers lol

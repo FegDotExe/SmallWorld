@@ -51,7 +51,7 @@ execute as @s[scores={craftingPower=4..,craftingRecipe=0..,craftingActive=1}] ru
 execute as @s[scores={craftingPower=4..,craftingRecipe=0..,craftingActive=1}] at @s store result block ~ ~-1 ~ Items[{Slot:8b}].Count int 1 run scoreboard players get @e[type=armor_stand,name="SMWmarker",limit=1] craftingActive
 
 #Give results
-execute as @s[scores={craftingPower=4..,craftingRecipe=0,craftingActive=1}] run give @s minecraft:clock{Smart:1b,display:{Name:'{"text": "Omniscent clock","italic": false,"color": "dark_purple"}',Lore:['{"text":"Hold this clock","italic":false,"color": "gray"}','{"text":"in your hand to","italic":false,"color": "gray"}','{"text":"see the sands of time!","italic":false,"color": "gray"}']}}
+execute as @s[scores={craftingPower=4..,craftingRecipe=0,craftingActive=1}] run give @s minecraft:clock{Smart:1b,display:{Name:'{"text": "Omniscient clock","italic": false,"color": "dark_purple"}',Lore:['{"text":"Hold this clock","italic":false,"color": "gray"}','{"text":"in your hand to","italic":false,"color": "gray"}','{"text":"see the sands of time!","italic":false,"color": "gray"}']}}
 execute as @s[scores={craftingPower=4..,craftingRecipe=1,craftingActive=1}] run give @s minecraft:carrot_on_a_stick{Smart:1b,display:{Name:'{"text": "Totem of time I","italic": false,"color": "dark_purple"}',Lore:['{"text":"A weak totem which","italic":false,"color": "gray"}','{"text":"wields the chains","italic":false,"color": "gray"}','{"text":"of time!","italic":false,"color": "gray"}']},CustomModelData:1,TimeTotem:1b}
 
 scoreboard players set @s craftingActive 0

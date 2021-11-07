@@ -32,6 +32,12 @@ scoreboard objectives add sneakTime minecraft.custom:sneak_time
 #Custom items
 scoreboard objectives add clickCarrotStick minecraft.used:carrot_on_a_stick
 
+#Buttons and random triggers
+scoreboard objectives add startButton trigger
+#Is more than one if a player has pressed the start button
+scoreboard objectives add barrierModifier trigger
+#Is used in the first tell to modify the barrier
+
 kill @e[type=armor_stand,name="SMWmarker"]
 summon armor_stand ~ ~ ~ {Invulnerable:1b,Invisible:1b,Marker:1b,CustomName:'{"text":"SMWmarker"}'}
 

@@ -3,3 +3,6 @@ give @s chest{BlockEntityTag:{LootTable:"smallworld:chests/starter"}}
 white->yellow->cyan->purple
 give @s spawner{BlockEntityTag:{SpawnData:{id:"minecraft:zombie"},SpawnPotentials:[{Entity:{id:"minecraft:zombie"},Weight:1}]}}
 give @s minecraft:spawner{BlockEntityTag:{MaxNearbyEntities:20s,SpawnData:{id:"minecraft:slime"},MaxSpawnDelay:1s,MinSpawnDelay:0s,SpawnPotentials:[{Entity:{id:"minecraft:slime"},Weight:1}]}}
+
+give @p minecraft:spawner{BlockEntityTag:{MaxNearbyEntities:20s,MaxSpawnDelay:20s,MinSpawnDelay:1s,SpawnData:{id:"minecraft:item",Item:{id:"minecraft:diamond",Count:1b}},SpawnPotentials:[{Entity:{id:"minecraft:item",Item:{id:"minecraft:diamond",Count:1b}},Weight:1}]}}
+give @p minecraft:spawner{BlockEntityTag:{MaxNearbyEntities:1s,MaxSpawnDelay:20s,MinSpawnDelay:1s,SpawnData:{id:"minecraft:item",Item:{id:"minecraft:diamond",Count:1b}},SpawnPotentials:[{Entity:{id:"minecraft:item",Item:{id:"minecraft:diamond",Count:1b}},Weight:1}]}}
