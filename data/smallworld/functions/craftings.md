@@ -16,9 +16,6 @@ Requires a crafting power of at least **4**.
 ### Usage
 If you right click while you have this totem in your main hand, you will remove 8 minutes from the bonus timer.
 ### Crafting
-```
-□@□
-###
-□#□
-```
-![alt text](../../../gitimages/clock.png)
+<img src="../../../gitimages/empty.png" width=32><img src="../../../gitimages/empty.png" width=32><img src="../../../gitimages/empty.png" width=32>
+<img src="../../../gitimages/empty.png" width=32><img src="../../../gitimages/clock.png" width=32><img src="../../../gitimages/empty.png" width=32>
+<img src="../../../gitimages/empty.png" width=32><img src="../../../gitimages/empty.png" width=32><img src="../../../gitimages/empty.png" width=32>
